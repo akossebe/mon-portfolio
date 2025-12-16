@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="{% static 'portfolio/css/style.css' %}">
+</head>
+<body>
+
+<nav>
+    <a href="/">Accueil</a>
+    <a href="/about/">À propos</a>
+    <a href="/projects/">Projets</a>
+    <a href="/contact/">Contact</a>
+</nav>
+
+<div class="container">
+    {% block content %}{% endblock %}
+</div>
+
+<footer>
+    <p>© 2025 - Étudiant TIC</p>
+</footer>
+
+</body>
+</html>
