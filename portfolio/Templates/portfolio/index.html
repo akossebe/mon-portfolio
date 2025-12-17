@@ -1,9 +1,36 @@
 {% extends 'portfolio/base.html' %}
 
 {% block content %}
-<h1>Bienvenue sur mon Portfolio</h1>
-<p>Je suis étudiant en Technologie de l’Information et de la Communication.</p>
+<div class="home-container">
+
+    <!-- Texte à gauche -->
+    <div class="home-text">
+        <h1>Bienvenue sur mon Portfolio</h1>
+
+        <p>
+            Bonjour ! Je suis <strong>AKOSSEBE KOLOMSO WEEZY</strong>, étudiant en 2ème année
+            à l'Université de Yaoundé I.
+        </p>
+
+        <p><strong>Filière :</strong> Technologie de l’Information et de la Communication (TIC)</p>
+        <p><strong>Spécialité :</strong> Sécurité Informatique</p>
+
+        <p>
+            Je développe des projets en <strong>Python</strong>, <strong>Django</strong> et
+            je m’intéresse à la <strong>cybersécurité</strong> et aux technologies web.
+        </p>
+
+        <a href="/projects/" class="btn">Voir mes projets</a>
+    </div>
+
+    <!-- Photo à droite -->
+    <div class="home-image">
+        <img src="/static/portfolio/images/pp.png" alt="Ma photo">
+    </div>
+
+</div>
 {% endblock %}
+
 
 <!-- <!DOCTYPE html>
 <html lang="fr">
